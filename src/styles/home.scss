@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+.home{
+    width: 428px;
+    border-radius: 32px;
+    height: 926px;
+    margin: 0 auto;   
+    background-color: #153B50;
+    box-shadow: -10px -10px 20px 0px #00000033;
+    box-shadow: 10px 10px 20px 0px #00000033;
+    box-shadow: -10px -10px 20px 0px #0000001A inset;
+    box-shadow: 10px 10px 20px 0px #0000001A inset;
+    nav{
+        padding: 30px 32.67px 0 27px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 157px;
+    }
+    section{
+        .slide{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        span{
+            display: flex;
+            justify-content: center;
+        }
+        h2{
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 39px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 42px;
+            margin-bottom: 21px;
+        }
+        h3{
+            max-width: 324px;
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #ffffff;
+        }
+        .active{
+            width: max-content;
+            margin: 0 auto;
+            display: flex;
+            gap: 15px;
+            margin-top: 34px;
+            button{
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: #E0762A;
+                opacity: 0.3;
+                border: none;
+                outline: 0;
+            }
+            .active-child{
+                opacity: 1;
+            }
+        }
+    }
+    footer{
+        margin-top: 73px;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 49px;
+    }
+}
